@@ -1,0 +1,165 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #00264d;
+  color: #fff;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+h1, h2, h3, h4 {
+  color: #e0e0e0;
+}
+
+pre {
+  background-color: #003366;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  margin: 10px 0;
+  color: #fff;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+hr {
+  border: 1px solid #333;
+  margin: 10px 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.right-image {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+}
+
+.links {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #4da6ff;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main-content {
+  width: 70%;
+  background-color: #003366;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+  width: 25%;
+  background-color: #003366;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info, .career-goals {
+  background-color: #003366;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+/* Skill Proficiency Bar */
+.skill {
+  margin-bottom: 15px;
+}
+
+.progress-bar {
+  background-color: #cccccc;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 20px;
+}
+
+.progress {
+  background-color: #4da6ff;
+  color: white;
+  text-align: center;
+  line-height: 20px;
+  height: 100%;
+  width: 0%;
+  transition: width 0.3s ease-in-out;
+}
+
+.slider {
+  width: 100%;
+  margin-top: 5px;
+}
+
+/* Light Mode */
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.light-mode h1, .light-mode h2, .light-mode h3, .light-mode h4 {
+  color: #333333;
+}
+
+.light-mode pre {
+  background-color: #f0f0f0;
+  color: #000000;
+}
+
+.light-mode .links a {
+  color: #1a73e8;
+}
+
+@media (max-width: 768px) {
+  .header {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .right-image {
+      margin: 0 auto;
+  }
+
+  .container {
+      flex-direction: column;
+  }
+
+  .main-content, .sidebar {
+      width: 100%;
+  }
+}
