@@ -1,0 +1,8 @@
+Summary
+
+    Header: Contains the title and profile image.
+    Links: Contains external links like LinkedIn and GitHub.
+    ProgressBar: A reusable component for skills with a slider.
+    MainContent: Contains personal info, education, work experience, and skills.
+    Sidebar: Contains contact info and career goals.
+    App: The main container that includes all components and manages the light/dark mode.
